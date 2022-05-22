@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.barra{
+    background-color: rgb(90, 141, 186);
+    box-shadow: 0 8px 8px -4px gray;
+}
+.limites{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logo{
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+.enlaces{
+    float: right;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+.enlaces ul{
+    list-style: none;
+}
+.enlaces ul li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.enlaces ul li a{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+.enlaces ul li a:hover{
+    color: black;
+}
+.parallax{
+    background: white fixed no-repeat 50% 50%;
+    background-size: cover;
+    margin: 0;
+}
+#banner{
+    background-image: url("../img/banner.jpg");
+}
+.contenedor-banner{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.fondo{
+    background-image: url("../img/fondo-persona.jpg");
+    text-align: center;
+}
+#p1, #p2{
+    background-color: black;
+}
+.foto{
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+.global{
+    box-shadow: 0 8px 8px -4px gray;
+}
+.texto{
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contenedor-contenido{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 8px 8px -4px gray;
+}
+.autor{
+    text-decoration: underline;
+}
+.contenedor-publicaciones{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.contenedor-publicaciones ul li a{
+    color: rgb(74, 74, 74);
+}
+.contenedor-publicaciones ul li a:hover{
+    color: black;
+}
+.titulo{
+    display: block;
+}
+#publicacion1{
+    background-image: url("../img/G1.jpg");
+    margin: -15px;
+}
+#publicacion2{
+    background-image: url("../img/F1.jpg");
+}
+#publicacion3{
+    background-image: url("../img/G2.jpg");
+    margin: -15px;
+}
+#publicacion4{
+    background-image: url("../img/F1.jpg");
+}
+#publicacion5{
+    background-image: url("../img/G3.jpg");
+    margin: -15px;
+}
+.sombra{
+    box-shadow: 0 8px 8px -4px gray;
+}
+.referencias{
+    padding-top: 10px;
+}
+.fotos{
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-bordered td{
+    border: 1px solid black;
+}
+.actividad{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
